@@ -217,7 +217,7 @@ export function Detail(){
                         <p>{formatDate(oneDayAfter!.dt)}</p>
                         <p>{formatDate(twoDayAfter!.dt)}</p>
                         <p>{formatDate(threeDayAfter!.dt)}</p>
-                        <p>{formatDate(fourDayAfter!    .dt)}</p>
+                        <p>{formatDate(fourDayAfter!.dt)}</p>
                     </div>
                     <div className={styles.forecastWeatherSymbol}>
                         <p>{ oneDayAfter?.weather?.[0]?.description && renderWeatherIcon(oneDayAfter?.weather?.[0]?.description)}</p>
